@@ -1,11 +1,11 @@
 pipeline{
-agent any
-stages{
- stage('Build'){
-  steps{
-   echo "Hello World from pipeline"
-    
-   }
-  }
- }
+	agent any
+	
+	stages{
+	stage('Compile Stage'){
+		steps{
+			echo "Hello World from jenkins"
+			}
+		}
+	}
 }
