@@ -3,7 +3,8 @@ agent any
 stages{
  stage('Build'){
   steps{
-   echo "Hello"
+   sh 'echo "Hello World"
+    
    }
   }
  }
