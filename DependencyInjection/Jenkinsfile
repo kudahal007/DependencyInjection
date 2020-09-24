@@ -4,7 +4,7 @@ pipeline{
 	stages{
 	stage('Compile Stage'){
 		steps{
-			echo "Hello World from jenkins"
+			echo "Hello World from pipelines"
 			}
 		}
 	}
