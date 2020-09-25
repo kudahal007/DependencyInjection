@@ -2,10 +2,24 @@ pipeline{
 	agent any
 	
 	stages{
-	stage('Compile Stage'){
-		steps{
-			echo "Hello World from pipelines"
+		stage('clean'){
+			steps{
+				echo "Hello World from pipelines"
+				}
 			}
 		}
-	}
+	
+		stage('test'){
+			steps{
+				echo "Hello World from pipelines"
+				}
+			}
+		}
+
+		stage('package'){
+			steps{
+				echo "Hello World from pipelines"
+				}
+			}
+		}
 }
